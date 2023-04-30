@@ -1,4 +1,4 @@
-Category,Year,Acres,Gross Revenue
+Category,Year,Acres,gross_revenue
 field_crops,1999,"368517","$257,341,000.00"
 field_crops,2000,"389628","$254,357,000.00"
 field_crops,2001,"388103","$284,901,000.00"
