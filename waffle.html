@@ -5,10 +5,26 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script src="https://d3js.org/d3.v7.min.js"></script>
+	<link rel="stylesheet" href="css/style.css">
+
 	<!-- <script src="waffle.js"></script> -->
 	<title>Document</title>
 </head>
 <body>
+
+<!-- UNCOMMENT AFTER PRESENTATION -->
+<!-- <div class="container">
+	<div class="waffle_description">In 1922, as a way to preserve water in the region, 
+			a landmark agreement, called The Colorado River 
+			Compact was made, dividing up water for each state and Mexico. <b>
+			That policy is still used today.</b> 
+	</div>
+</div> -->
+
+<div class="waffle">
+	<!-- <div class="waffle_title">
+		<p>Historical, 1922 River Allocation- <b id="total">TOTAL</b></p>
+	</div> -->
 	<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 		 viewBox="0 0 1366 768" style="enable-background:new 0 0 1366 768;" xml:space="preserve">
 	<style type="text/css">
@@ -1378,8 +1394,81 @@
 				C992.5,450.9,990.3,453.1,987.5,453.1z"/>
 		</g>
 	</g>
+
+	
+
+		
+			<rect class="my-rect" x="-1150" y="-500" width="20" height="20" style="fill: blue;"></rect>
+			<g class="legend" transform="translate(1150,500)">
+				<circle cx="0" cy="-240" r="10" style="fill: #FFC862;"></circle>
+				<text x="20" y="-240" dy=".35em" class="cali">California</text>
+
+				<circle cx="0" cy="-210" r="10" style="fill: #F9555A;"></circle>
+				<text x="20" y="-210" dy=".35em" class="colo">Colorado</text>
+
+				<circle cx="0" cy="-180" r="10" style="fill: #745298;"></circle>
+				<text x="20" y="-180" dy=".35em" class="ari">Arizona</text>
+
+				<circle cx="0" cy="-150" r="10" style="fill: #CB7856;"></circle>
+				<text x="20" y="-150" dy=".35em" class="utah">Utah</text>
+
+				<circle cx="0" cy="-120" r="10" style="fill: #96BCF2;"></circle>
+				<text x="20" y="-120" dy=".35em" class="mexico">Mexico</text>
+
+				<circle cx="0" cy="-90" r="10" style="fill: #A1DC93;"></circle>
+				<text x="20" y="-90" dy=".35em" class="wyo">Wyoming</text>
+
+				<circle cx="0" cy="-60" r="10" style="fill: #FF9158;"></circle>
+				<text x="20" y="-60" dy=".35em" class="nm">New Mexico</text>
+
+				<circle cx="0" cy="-30" r="10" style="fill: #FFB59F;"></circle>
+				<text x="20" y="-30" dy=".35em" class="nev">Nevada</text>
+			</g>
+		
+	
 	</svg>
 
-	<script src="js/animate.js"></script>
+
+	<!-- <div class="california_27">
+		<p></p>
+	</div>
+
+	<div class="colorado_24">
+		<p></p>
+	</div>
+
+	<div class="arizona_17">
+		<p></p>
+	</div>
+
+	<div class="utah_10">
+		<p></p>
+	</div>
+
+	<div class="mexico_9">
+		<p></p>
+	</div>
+
+	<div class="wyoming_6">
+		<p></p>
+	</div>
+
+	<div class="newmexico_5">
+		<p></p>
+	</div>
+
+	<div class="nevada_2">
+		<p></p>
+	</div> -->
+
+
+
+	
+</div>
+
+
+
+
+	<script src="/waffle/animate.js"></script>
 </body>
 </html>
