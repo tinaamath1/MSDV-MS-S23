@@ -1,0 +1,592 @@
+/* *{
+	margin:0;
+	padding:0;
+} */
+
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+	background-color: #F8F7E9;
+}
+
+.hero-section{
+	background-image: url(/pictures/cover_page.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	display:flex;
+	flex-direction:column;
+	justify-content: center;
+	align-items: center;
+	text-align:center;
+	margin-bottom: 300px;
+	
+
+
+}
+
+
+.hero-text {
+      position: absolute;
+      top: 30%; /* Adjust this value to move the text up or down */
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+      max-width: 610.84px;
+      font-family: 'Climate Crisis';
+      font-style: normal;
+      font-weight: 900;
+      font-size: 70px;
+      line-height: 84px;
+      text-align: center;
+      color: #607A25;
+    }
+/* .hero-text {
+	color: #fff;
+	font-size: 48px;
+	font-weight: bold;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+	margin-bottom: 20px;
+  } */
+
+.hero-subtext{
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 30px;
+	text-align: center;
+	color: #000000;
+  }
+
+.me{
+	position: absolute;
+	width: 480.18px;
+	height: 29.81px;
+	left: 497.19px;
+	top: 438.22px;
+	
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 30px;
+	
+	color: #000000;
+}
+
+
+.content{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+
+.iframe-container-geography {
+	margin-left: 200px;
+}
+
+.iframe-container-aimap {
+	margin-left: 200px;
+}
+
+.iframe-container-powell {
+	margin-left: 60px;
+}
+
+.iframe-container-circlePack {
+	position: relative;
+    width: 100vw;
+	
+}
+
+.iframe-container-powell {
+	margin-left: 350px;
+}
+
+.waffle-container {
+	margin-top: -50px;
+	margin-right: 50px;
+	margin-bottom: 100px;
+}
+
+.section_title {
+	margin-bottom: 10px;
+	margin-left: -37%; /* Adjust this value to move it to the desired position */
+	font-style: normal;
+	font-weight: 700;
+	font-size: 27px;
+	line-height: 140%;
+	text-transform: capitalize;
+	color: black;
+	width: 100%;
+	font-family: 'Source Sans Pro';
+	font-size: 34px;
+}
+
+.section_text{
+    font-family: 'Source Sans Pro';
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 200%;
+    color: #000000;
+}
+
+.section_title{
+    font-family: 'Source Sans Pro';
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 200%;
+    color: #000000;
+	text-align: center;
+}
+
+.flip {
+	display: grid;
+	grid-template-columns: 1fr 1fr; /* Adjust the column widths as needed */
+	/* grid-gap: 100px; Adjust the gap between the columns as needed */
+  }
+
+.right-container {
+	grid-column: 2;
+	width: 60%;
+	max-width: 1200px; /* Adjust this value as needed, fix after presentation */ 
+	/* margin: 0 auto; */
+	margin-top: 200px; /* fix after presentaton */
+	display: flex;
+	/* justify-content: center; */
+	/* margin-left: 100px; */
+	
+}
+
+.left-container {
+	grid-column: 1;
+	/* width: 60%;
+	max-width: 1200px; /* Adjust this value as needed, fix after presentation */ 
+	/* margin: 0 auto; */
+	margin-top: 200px; /* fix after presentaton */
+	display: flex;
+	/* justify-content: center; */
+	margin-left: 550px;
+	text-align: left;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #000000;
+}
+
+/* .left-title {
+	text-align: left;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #000000;
+} */
+
+
+
+
+.graph_title {
+	font-family: 'Source Sans Pro';
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 200%;
+    color: #000000;
+	text-align: center;
+}
+
+
+.geography{
+	width: 100%;
+	max-width: 765px;
+	text-align: left;
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 200;
+	font-size: 28px;
+	line-height: 30px;
+	color: #000000;
+}
+
+.geo_map {
+	width: 80%;
+	max-width: 1300px; /* Adjust this value as needed, fix after presentation */ 
+	margin: 0 auto;
+	margin-top: 100px; /* fix after presentaton */
+	display: flex;
+	justify-content: center;
+	margin-left: 75px; 
+}
+
+
+.waffle_description {
+	width: 100%;
+	max-width: 765px;
+	text-align: left;
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 200;
+	font-size: 28px;
+	line-height: 30px;
+	color: #000000;
+}
+
+
+
+.waffle_title {
+	width: 100%;
+	max-width: 765px;
+	text-align: left;
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 200;
+	font-size: 28px;
+	line-height: 23px;
+
+	color: #000000;
+}
+
+.waffle {
+	width: 100%;
+	/* max-width: 2500px; Adjust this value as needed, fix after presentation  */
+	margin: 0 auto;
+	/* margin-top: 100px; fix after presentaton  */
+	display: flex;
+	justify-content: center;
+	/* margin-left: 50px;  */
+
+}
+
+.california_27 {
+
+	width: 23px;
+	height: 15px;
+	position: absolute;
+	left: 34%;
+	top: 351.5%;
+	transform: translate(-50%, -50%);
+	
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 15px; 
+	text-align: center;
+	color: #000000;
+	/* identical to box height */
+
+}
+
+.colorado_24 {
+
+	width: 23px;
+	height: 15px;
+	position: absolute;
+	left: 45%;
+	top:351.5%;
+	transform: translate(-50%, -50%);
+  
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 15px;
+	text-align: center;
+	color: #000000;
+}
+
+.arizona_17 {
+
+	width: 23px;
+	height: 15px;
+	position: absolute;
+	left: 54%;
+	top:351.5%;
+	transform: translate(-50%, -50%);
+  
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 15px;
+	text-align: center;
+	color: #000000;
+}
+
+.utah_10 {
+
+	width: 23px;
+	height: 15px;
+	position: absolute;
+	left: 59%;
+	top:351.5%;
+	transform: translate(-50%, -50%);
+  
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 15px;
+	text-align: center;
+	color: #000000;
+}
+
+
+.mexico_9 {
+	width: 23px;
+	height: 15px;
+	position: absolute;
+	left: 63.5%;
+	top:351.5%;
+	transform: translate(-50%, -50%);
+  
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 15px;
+	text-align: center;
+	color: #000000;
+}
+
+
+.wyoming_6 {
+	width: 23px;
+	height: 15px;
+	position: absolute;
+	left: 67%;
+	top:351.5%;
+	transform: translate(-50%, -50%);
+  
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 15px;
+	text-align: center;
+	color: #000000;
+}
+
+
+
+.newmexico_5 {
+	width: 23px;
+	height: 15px;
+	position: absolute;
+	left: 70%;
+	top:351.5%;
+	transform: translate(-50%, -50%);
+  
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 15px;
+	text-align: center;
+	color: #000000;
+}
+
+.nevada_2 {
+
+	width: 23px;
+	height: 15px;
+	position: absolute;
+	left: 72%;
+	top:328%;
+	transform: translate(-50%, -50%);
+  
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 15px;
+	text-align: center;
+	color: #000000;
+
+}
+
+.legend{
+	font-family: 'Source Sans Pro';
+}
+
+.fade-in-image { animation: fadeIn 2s; }
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.aimap_title {
+	text-align: center;
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 30px;
+	line-height: 25px;
+	color: #000000;
+}
+
+ .aimap {	
+	width: 100%;
+	max-width: 1000px; /* Adjust this value as needed, fix after presentation */ 
+	margin: 0 auto;
+	margin-top: 150px; /* fix after presentaton */
+	display: flex;
+	justify-content: center;
+	margin-left: 50px; 
+}
+
+.aimap_legend {
+	position: absolute;
+	top: 89%;
+	left: 17.5%;
+	width: 50%;
+}
+
+#my_dataviz { 
+	/* width: 50%;
+	height:600px;  */
+	/* max-width: 1600px; Adjust this value as needed, fix after presentation  */
+	/* margin: 0 auto; */
+	/* margin-top: 150px; fix after presentaton */
+	/* display: flex; */
+	/* justify-content: center; */
+	margin-right: 150px; 
+} 
+
+.powell_source {
+
+	top: 110%; /* Adjust this value to move the text up or down */
+	left: 19%;
+	transform: translate(-50%, -50%);
+	/* max-width: 765px; */
+
+	font-family: 'Cardo';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 19px;
+
+	color: #000000;
+}
+
+.powell_description {
+
+	transform: translate(-50%, -50%);
+	width: 100%;
+	max-width: 765px;
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight:345;
+	font-size: 24px;
+	line-height: 30px;
+
+	color: #000000;
+}
+
+.powell_title {
+
+
+
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 26px;
+	line-height: 23px;
+
+	color: #000000;
+}
+
+
+
+.line {
+	fill:none;
+	stroke: #089def; 
+	stroke-width: 3px;
+}
+
+.axisGray line{
+	stroke: gray;
+}
+
+.axisGray path{ 
+	stroke: gray; 
+}
+
+.axisGray text{ 
+	fill: gray; 
+}
+
+rect {
+	pointer-events: all;
+	fill-opacity: 0;
+	stroke-opacity: 0;
+	z-index: 1;
+}
+
+.tooltip {
+  position: absolute;
+  padding: 10px;
+  background-color: steelblue;
+  color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  display: none;
+  opacity: .75;
+}
+
+.circle_packing {
+	
+	top: 65%; /* Adjust this value to move the text up or down */
+	left: 50%;
+	/* transform: translate(-50%, -50%); */
+	width: 50%;
+	/* max-width: 765px; */
+}
+
+.circle_description {
+	position: absolute;
+	top: 15%; /* Adjust this value to move the text up or down */
+	left: 53%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	max-width: 765px;
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight:200;
+	font-size: 24px;
+	line-height: 30px;
+
+	color: #000000;
+}
+
+
+.circle_title {
+	position: absolute;
+	top: 25%;
+	left: 32%;
+
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 26px;
+	line-height: 23px;
+
+	color: #000000;
+}
